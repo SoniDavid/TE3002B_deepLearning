@@ -1,0 +1,14 @@
+name: ml_week2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - matplotlib
+  - pillow
+  - joblib
+  - scikit-image
+  - scikit-learn
+  - opencv          # cv2 — required by realtime_predict.py
+  - ipykernel       # for running the .ipynb notebook
